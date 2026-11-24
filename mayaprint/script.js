@@ -1,0 +1,1 @@
+document.querySelector("#quote").addEventListener("submit", e=>{e.preventDefault();const val=id=>document.getElementById(id).value;location.href="https://wa.me/529831324452?text="+encodeURIComponent(`Hola, soy ${val("nombre")}. Quisiera cotizar: ${val("servicio")}. Detalles: ${val("detalle")}`);});
